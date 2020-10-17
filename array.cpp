@@ -1,7 +1,11 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int input=0, i=0, sum=0, count=0; float avg;
+    int input=0;
+    int i=0;
+    int sum=0;
+    int count=0;
+    float average;
     while (input<1 || input>100){
         cout<<"Enter length of array: ";
         cin>>input;
@@ -18,7 +22,7 @@ int main(){
         count++;
         i++;
     }
-    avg = (float)sum/count;
-    cout<<"Average is: " <<avg;
+    average = (float)sum/count;
+    cout<<"Average is: " <<average;
     return 0;
 }
